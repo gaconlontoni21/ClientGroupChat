@@ -21,6 +21,7 @@
 .right-header {
     min-height: 60px;
 }
+
 #chat-window {
     height: calc(100% - 37px - 60px - 70px);
 }

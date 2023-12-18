@@ -23,7 +23,7 @@
                 <div class="left-header d-flex justify-content-between align-items-center px-2 py-0 border-bottom">
                     <img id="user-avatar" class="rounded-circle" src="https://www.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-760x400.webp" alt="Avatar" width="50px" height="50px" />
                     <div class="d-flex">
-                        <i class="open-model fa fa-plus mr-3" modal-name="new-group"></i>
+                        <i class="open-model fa fa-plus mr-3" data-toggle="modal" data-target="#create-group-modal"></i>
                         <i class="open-model fa fa-user-plus mr-3" modal-name="new-friend"></i>
                         <!-- <i class="open-model fa fa-search mr-3" modal-name="add-group"></i> -->
                     </div>
@@ -334,6 +334,32 @@
                     <small><i>© 2023 Tchat Website</i></small>
                 </div>
             </div>
+
+            <div class="modal fade" id="create-group-modal" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal-label">Create new group</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group d-flex justify-content-center">
+                            <input type="file" class="d-none" id="group-avatar" accept="image/*" onchange="previewImage(event)">
+                            <img id="preview" class="rounded-circle border border-secondary" src="https://www.doccen.vn/icons/default-group-avatar.svg" alt="Group Avatar"  onclick="document.getElementById('group-avatar').click();" width="100" height="100">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="recipient-name" placeholder="Type a group name">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-pink">Create</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </div>
 

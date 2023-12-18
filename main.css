@@ -1,0 +1,81 @@
+body {
+    font-family: 'Poppins';
+}
+
+.bg-white {
+    background: white;
+}
+
+.txt-pink {
+    color: #f8345f;
+}
+
+.link-text {
+    color: #f8345f;
+    text-decoration: underline;
+}
+
+.link-text:hover {
+    color: #e02a50;
+}
+
+.link-text:active {
+    color: #c02042;
+}
+
+.bg-pink {
+    background-color: #f8345f;
+}
+
+.btn-pink {
+    background-color: #f8345f;
+    color: white;
+    border: none;
+}
+
+.btn-pink:hover {
+    background-color: #e02a50;
+    color: white;
+    border: none;
+}
+
+.btn-pink:active {
+    background-color: #c02042;
+    color: white;
+    border: none;
+}
+
+.normal-text-size {
+    font-size: 14px;
+}
+
+
+/* Custom list group item */
+.list-group-item.active {
+    z-index: 2;
+    color: #212529;
+/*    background-color: #f8345f;
+    border-color: #f8345f;*/
+    background-color: #e5efff;
+    border-color: #e5efff;
+}
+
+.min-w-0 {
+    min-width: 0;
+}
+
+.min-h-0 {
+    min-height: 0;
+}
+
+.list-group-item-action:hover {
+    cursor: pointer;
+}
+
+i.fa {
+    cursor: pointer;
+}
+
+img {
+    cursor: pointer;
+}

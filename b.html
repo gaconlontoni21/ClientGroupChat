@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Web Clone</title>
+    <!-- Import Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <!-- Import Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Custom CSS -->
+    <style>
+        /* Add your custom CSS here */
+    </style>
+</head>
+<body class="min-h-100">
+    <div class="container-fluid h-100">
+        <div class="row">
+            <!-- Left container -->
+            <div class="col-md-4 bg-light border-right">
+                <!-- Header -->
+                <div class="d-flex align-items-center justify-content-between p-3 border-bottom">
+                    <img src="https://www.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-760x400.webp" alt="User" class="rounded-circle" width="50" height="50">
+                    <div class="d-flex">
+                        <i class="fas fa-search px-2"></i>
+                        <i class="fas fa-ellipsis-v px-2"></i>
+                    </div>
+                </div>
+                <!-- Notification box -->
+                <!-- <div class="d-flex align-items-center justify-content-between p-2 bg-success text-white">
+                    <span>WhatsApp is available for Windows. <a href="#" class="text-white">Get it here.</a></span>
+                    <i class="fas fa-times px-2"></i>
+                </div> -->
+                <!-- Search container -->
+                <div class="input-group p-3">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-secondary" type="button">
+                        <i class="fas fa-search"></i>
+                      </button>
+                    </div>
+                </div>
+                <!-- Search container -->
+                <!-- <div class="d-flex align-items-center p-3 border-bottom">
+                    <i class="fas fa-search px-2"></i>
+                    <input type="text" class="form-control" placeholder="Search or start new chat">
+                    <i class="fas fa-bars px-2"></i>
+                </div> -->
+                <!-- Chat list -->
+                <div class="list-group">
+                    <!-- Active chat -->
+                    <div class="list-group-item list-group-item-action active">
+                        <div class="d-flex align-items-center">
+                            <img src="https://www.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-760x400.webp" alt="Muhammad" class="rounded-circle" width="50" height="50">
+                            <div class="ml-3">
+                                <h6 class="mb-1">Muhammad Shayan</h6>
+                                <p class="mb-0">How to make WhatsApp clone using html & css...</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <small class="mr-2">12:15</small>
+                            <span class="badge badge-pill badge-light">1</span>
+                        </div>
+                    </div>
+                    <!-- Unread chat -->
+                    <div class="list-group-item list-group-item-action unread">
+                        <div class="d-flex align-items-center">
+                            <img src="https://www.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-760x400.webp" alt="Ashraf" class="rounded-circle" width="50" height="50">
+                            <div class="ml-3">
+                                <h6 class="mb-1">Ashraf</h6>
+                                <p class="mb-0">Hi, I found you on justdial!</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <small class="mr-2">11:45</small>
+                            <span class="badge badge-pill badge-success">2</span>
+                        </div>
+                    </div>
+                    <!-- Other chats -->
+                    <div class="list-group-item list-group-item-action">
+                        <div class="d-flex align-items-center">
+                            <img src="https://www.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-760x400.webp" alt="Olivia" class="rounded-circle" width="50" height="50">
+                            <div class="ml-3">
+                                <h6 class="mb-1">Olivia</h6>
+                                <p class="mb-0">Send for processing</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <small class="mr-2">10:30</small>
+                        </div>
+                    </div>
+                    
+                    <!-- Add more chats as you wish -->
+                </div>
+            </div>
+            <!-- Right container -->
+            <div class="col-md-8 bg-white">
+                <!-- Header -->
+                <div class="d-flex align-items-center justify-content-between p-3 border-bottom">
+                    <div class="d-flex align-items-center">
+                        <img src="https://www.searchenginejournal.com/wp-content/uploads/2019/07/the-essential-guide-to-using-images-legally-online-760x400.webp" alt="Muhammad" class="rounded-circle" width="50" height="50">
+                        <div class="ml-3">
+                            <h6 class="mb-0">Muhammad Shayan</h6>
+                            <small class="text-muted">online</small>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fas fa-video px-2"></i>
+                        <i class="fas fa-phone-alt px-2"></i>
+                        <i class="fas fa-search px-2"></i>
+                        <i class="fas fa-ellipsis-v px-2"></i>
+                    </div>
+                </div>
+                <!-- Chat window -->
+                <div class="chat-window">
+                    <!-- Sent message -->
+                    <div class="d-flex justify-content-end p-3">
+                        <div class="bg-success text-white p-2 rounded">
+                            <p class="mb-0">How to make WhatsApp clone using html & css only?</p>
+                        </div>
+                        <small class="ml-2">12:15</small>
+                    </div>
+                    <!-- Received message -->
+                    <div class="d-flex justify-content-start p-3">
+                        <div class="bg-light p-2 rounded">
+                            <p class="mb-0">Commodi expedita in ut quas laboriosam fugiat adipisci maxime laudantium quis modi magnum, equue , alias officia inventore fhe cupiditate veritatis eveniet tenetur?</p>
+                        </div>
+                        <small class="ml-2">12:13</small>
+                    </div>
+                    <!-- Add more messages as you wish -->
+                </div>
+                <!-- Input field -->
+                <div class="d-flex align-items-center p-3 border-top">
+                    <i class="fas fa-smile px-2"></i>
+                    <i class="fas fa-paperclip px-2"></i>
+                    <input type="text" class="form-control" placeholder="Type a message">
+                    <i class="fas fa-microphone px-2"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Import jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Import Bootstrap CDN -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script>
+        // Add your custom JavaScript here
+    </script>
+</body>
+</html>

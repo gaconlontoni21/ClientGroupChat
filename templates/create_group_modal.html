@@ -1,0 +1,26 @@
+<div class="modal fade" id="create-group-modal" tabindex="-1" role="dialog" aria-labelledby="create-group-modal-label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="create-group-modal-label">Create new group</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group d-flex justify-content-center">
+                    <input type="file" class="d-none" id="group-avatar" accept="image/*">
+                    <img id="avatar-preview" class="rounded-circle border border-secondary" src="https://www.doccen.vn/icons/default-group-avatar.svg" alt="Group Avatar" width="100" height="100">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control normal-text-size" id="recipient-name" placeholder="Type a group name">
+                    <div class="result"></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-pink">Create</button>
+            </div>
+        </div>
+    </div>
+</div>

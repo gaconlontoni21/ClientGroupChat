@@ -1,0 +1,19 @@
+<!-- Received message -->
+<div class="d-flex justify-content-start py-3" >
+    <div class="bg-received-msg rounded p-2 text-dark">
+        <div class="d-flex flex-column">
+            <div class="d-flex align-items-center mb-2">
+                <img class="rounded-circle" src="{{sender.avatar}}" alt="Avatar" width="40" height="40">
+                <div class="ml-2">
+                    <small class="text-secondary">{{sender.name}}</small>
+                </div>
+            </div>
+            <div>
+                <span>{{content}}</span>
+            </div>
+            <div class="d-flex justify-content-end">
+                <small class="text-secondary">{{timestamp}}</small>
+            </div>
+        </div>
+    </div>
+</div>

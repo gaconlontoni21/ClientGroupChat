@@ -1,0 +1,20 @@
+<!-- Conversations -->
+<div id="conversations" class="left-list-group list-group overflow-auto">
+{{#each conversations}}
+    <div class="list-group-item list-group-item-action">
+        <div class="d-flex align-items-center">
+            <img class="rounded-circle" src="{{avatar}}" alt="Avatar" width="50" height="50"/>
+            <div class="ml-3 min-w-0 w-100">
+                <div class="d-flex justify-content-between">
+                    <div class="h6 text-truncate d-inline-block w-100 font-weight-bold">{{name}}</div>
+                    <small class="ml-3">{{timestamp}}</small>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <small class="text-truncate d-inline-block w-100">{{lastMessage}}</small>
+                    <span class="badge badge-success badge-pill ml-3">{{numberOfUnreadMessage}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+{{/each}}
+</div>

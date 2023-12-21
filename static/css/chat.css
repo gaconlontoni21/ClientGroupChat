@@ -1,0 +1,61 @@
+#left-container {
+    height: 100%;
+}
+
+#right-container {
+    height: 100%;
+}
+
+#left-header-container {
+    min-height: 60px;
+}
+
+#right-header-container {
+    min-height: 60px;
+}
+
+.left-search-bar {
+    height: 50px;
+}
+
+.left-list-group {
+    height: calc(100% - 37px - 50px - 60px);
+}
+
+#chat-window {
+    height: calc(100% - 37px - 60px - 70px);
+}
+
+.bg-sent-msg {
+    background-color: #f8345f;
+}
+
+.bg-received-msg {
+    background-color: #f0f2f5;
+}
+
+#chat-input-area {
+    height: 60px;
+    min-height: 60px;
+}
+
+#chat-input-area textarea {
+    resize: none;
+}
+
+#add-friend-modal .modal-dialog {
+    height: calc(100% - 5rem)!important;
+}
+
+#search-user-dropdown {
+    max-height: 15rem!important;
+    width: 100%;
+}
+
+#search-user-dropdown .dropdown-item {
+    cursor: pointer;
+}
+
+.chosen-user-container {
+    height: calc(100% - 35px);
+}
